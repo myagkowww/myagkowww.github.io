@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1100px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.namepage{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.about_designs{
+    background-image: url(./../img/about_designs.svg);
+    width: 420px;
+    height: 300px;
+}
+.case_1{
+    background-image: url(./../img/case_1.svg);
+    width: 630px;
+    height: 300px;
+}
+.span{
+    display: flex;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+div{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.indoor{
+    background-image: url(./../img/indoor.svg);
+    width: 630px;
+    height: 300px;
+}
+.scooters{
+    background-image: url(./../img/scooters.svg);
+    width: 420px;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+}
+.namecard{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0);
+    padding-left: 20px;
+    font-weight: 600; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+a:hover .namecard{
+    color: rgb(255, 255, 255);
+    opacity: 2;
+    background: rgba(0, 0, 0, 0.568);
+    height: 100%;
+
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .span{
+        display: block;
+    }
+    div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .container{
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 690px){
+    .container{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about_designs{
+        background-image: url(./../img/about_designs.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 320px;
+        height: 230px;
+    }
+    .case_1{
+        background-image: url(./../img/case_1.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 450px;
+        height: 214px;
+    }
+    .indoor{
+        background-image: url(./../img/indoor.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 450px;
+        height: 214px;
+    }
+    .scooters{
+        background-image: url(./../img/scooters.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 320px;
+        height: 230px;
+    }
+    .namecard{
+        font-size: 38px; 
+    }
+    .namepage{
+        font-size: 44px;
+    }
+}
